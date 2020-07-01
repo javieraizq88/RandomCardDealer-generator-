@@ -43,7 +43,8 @@ body {
     text-align: right;
     height: 40px;
     margin-right: 10px;
-    /*transform: scaleY(-1);*/
+    margin-top: 25%;
+    transform: scaleY(-1);
 }
 
 .card .cubs::before {
@@ -61,7 +62,8 @@ body {
     text-align: right;
     height: 40px;
     margin-right: 10px;
-    /*transform: rotate(180deg);*/
+    margin-top: 25%;
+    transform: scaleY(-1);
 }
 
 .card .hearts::before {
@@ -80,7 +82,8 @@ body {
     text-align: right;
     height: 40px;
     margin-right: 10px;
-    /*transform: rotate(180deg);*/
+    margin-top: 25%;
+    transform: scaleY(-1);
     color: red;
 }
 
@@ -100,7 +103,8 @@ body {
     text-align: right;
     height: 40px;
     margin-right: 10px;
-    /*transform: rotate(180deg);*/
+    transform: scaleY(-1);
+    margin-top: 25%;
     color: red;
 }
 
@@ -110,6 +114,5 @@ body {
     text-align: right;
     height: 40px;
     float: right;
-    /*transform: rotate(180deg);*/
-
+    transform: scaleY(-1);
 }
