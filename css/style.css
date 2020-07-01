@@ -28,16 +28,21 @@ body {
     width: 100%;
 }
 
-.card .spade::before {
-    content: '\2660';
+.card .spade::before,
+.card .cubs::before,
+.card .hearts::before,
+.card .diamonds::before {
     width: 100%;
     display: block;
     text-align: left;
     height: 40%;
     padding-left: 10px;
 }
-.card .spade::after {
-    content: '\2660';
+
+.card .spade::after,
+.card .cubs::after,
+.card .hearts::after,
+.card .diamonds::after {
     width: 100%;
     display: block;
     text-align: right;
@@ -47,66 +52,28 @@ body {
     transform: scaleY(-1);
 }
 
-.card .cubs::before {
-    content: '\2663';
-    width: 100%;
-    display: block;
-    text-align: left;
-    height: 40%;
-    padding-left: 10px;
+.card .spade::before, 
+.card .spade::after{
+    content: '\2660';
 }
+
+.card .cubs::before,
 .card .cubs::after {
     content: '\2663';
-    width: 100%;
-    display: block;
-    text-align: right;
-    height: 40px;
-    margin-right: 10px;
-    margin-top: 25%;
-    transform: scaleY(-1);
 }
 
-.card .hearts::before {
-    content: '\2665';
-    width: 100%;
-    display: block;
-    text-align: left;
-    height: 40%;
-    padding-left: 10px;
-    color: red;
-}
+.card .hearts::before,
 .card .hearts::after {
     content: '\2665';
-    width: 100%;
-    display: block;
-    text-align: right;
-    height: 40px;
-    margin-right: 10px;
-    margin-top: 25%;
-    transform: scaleY(-1);
     color: red;
 }
 
-.card .diamonds::before {
-    content: '\2666';
-    width: 100%;
-    display: block;
-    text-align: left;
-    height: 40%;
-    padding-left: 10px;
-    color: red;
-}
+.card .diamonds::before,
 .card .diamonds::after {
     content: '\2666';
-    width: 100%;
-    display: block;
-    text-align: right;
-    height: 40px;
-    margin-right: 10px;
-    transform: scaleY(-1);
-    margin-top: 25%;
     color: red;
 }
+
 
 .card ::after {
     width: 100%;
